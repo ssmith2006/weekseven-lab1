@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week Seven|Lab 1</title>
+  </head>
+  <body>
+    <h1>Weather Table</h1>
+
+    <header></header>
+    <table>
+      <thead> 
+        <!-- note: rows go inside the table head -->
+        <tr> 
+          <!-- note: the rows for the headings below -->
+          <th>Day</th> 
+          <th>Temperature</th>
+          <th>Rainfall</th>
+        </tr>
+      </thead>
+      <!-- note: this is the table body. We add an "id" to link it to the site js file. This link into the first document.getElementById-->
+      <tbody id="weatherTable-body"></tbody>
+    </table>
+    <!-- Here we begin the button that will be attached to first eventListener. Note: research what to do with the <p> for each button.  Don't quite understand. -->
+<br>
+
+<button id="avgTemp">AvgTemp</button>
+<p id="resultsavgTemp">Average Temp</p>
+<!-- the <p> will display the results. according to research I will need to assign the <p> an id to get info from JS -->
+
+<button id="maxRain">maxRain</button>
+<p id="resultsmaxRain">Highest Rainfall</p>
+    
+    <script src="temperature.js"></script>
+  </body>
+</html>
